@@ -1,8 +1,3 @@
-call plug#begin('~/.vim/plugged')
-Plug 'liuchengxu/space-vim-theme'
-call plug#end()
-
-colorscheme space_vim_theme
 syntax on
 set background=dark
 set tabstop=8
@@ -12,8 +7,8 @@ set shiftwidth=4
 filetype indent on
 set number
 set backspace=indent,eol,start
-set cursorcolumn
-set cursorline
+set clipboard=unnamed
+set clipboard+=unnamedplus
 set viminfo='20,<1000,s1000
 
 if has("autocmd")
