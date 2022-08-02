@@ -14,4 +14,3 @@ set viminfo='20,<1000,s1000
 if has("autocmd")
   au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
 endif
-
